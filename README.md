@@ -1,16 +1,29 @@
-# React + Vite
+Student Feedback Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Student Feedback Portal built with React & Tailwind CSS that allows students to submit, edit, filter, and manage feedback in a user-friendly way. The project uses LocalStorage for data persistence and features an emoji-based rating system for better user experience.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Emoji-based rating system (visual & interactive)
 
-## React Compiler
+Add, edit, and delete feedback (CRUD)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Filter feedback by rating (All, 4★+, 5★)
 
-## Expanding the ESLint configuration
+Live total feedback count
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dark-themed, responsive UI using Tailwind CSS
+
+No backend required (LocalStorage)
+
+🛠 Tech Stack
+
+React (Hooks: useState, useEffect)
+
+Tailwind CSS
+
+JavaScript (ES6)
+
+🎯 Purpose
+
+This project was developed as a React assignment to demonstrate component-based architecture, state management, and modern UI design.
